@@ -1,1 +1,4 @@
 # TIC-TAC-TOE
+The **Tic Tac Toe with Computer** project in **Python** creates an interactive game where a human player competes against the computer. Using the **Tkinter** library, the graphical user interface (GUI) allows players to click on the grid to make their moves, while the computer’s moves are generated based on a predefined algorithm. The game features a simple 3x3 grid where the player can either be 'X' or 'O', and the computer will automatically take its turn after the player.
+
+The core of the game’s logic relies on the **minimax algorithm**, which helps the computer decide its moves by evaluating the best possible outcome. The algorithm works by simulating all possible moves and selecting the one that maximizes the computer’s chances of winning while minimizing the player's chances. The game checks for a win, a draw, or ongoing gameplay after every move, ensuring smooth interaction and providing the user with real-time feedback through the GUI.
